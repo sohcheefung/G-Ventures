@@ -11,8 +11,16 @@ public class menuManager : MonoBehaviour
         Time.timeScale = 1;
     }
 	
-	public void loadLevel1(string level1){
+	public void loadLevelSelection(string level){
 		//SceneManager.UnloadSceneAsync ("Menu");
+		SceneManager.LoadScene("level");
+	}
+	
+	public void loadMenu(string Menu){
+		SceneManager.LoadScene("Menu");
+	}
+	
+	public void loadLevel1(string level1){
 		SceneManager.LoadScene("level1");
 	}
 	
