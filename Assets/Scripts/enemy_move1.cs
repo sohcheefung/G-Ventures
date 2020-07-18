@@ -13,11 +13,11 @@ public class enemy_move1 : MonoBehaviour
     {
         if(MoveRight){
 			transform.Translate(2 * Time.deltaTime * speed, 0,0);
-			transform.localScale = new Vector2 (3,3);
+			transform.localScale = new Vector2 (-3,3);
 			}
 			else{
 				transform.Translate(-2 * Time.deltaTime * speed, 0,0);
-				transform.localScale = new Vector2 (-3,3);
+				transform.localScale = new Vector2 (3,3);
 			}
 		}
 	
