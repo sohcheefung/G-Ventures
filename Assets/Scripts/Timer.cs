@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
 	public void Stop(){
 		timerIsRunning = false;
 		timerBar.enabled = false;
-		maxTime = 5f;
+		maxTime = 7f;
 		timeLeft = maxTime;
 	}
 	

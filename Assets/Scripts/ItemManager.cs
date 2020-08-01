@@ -17,6 +17,6 @@ public class ItemManager : MonoBehaviour
 	}
 	
 	void Update () {
-		text.text = "x" + itemAmount.ToString();
+		text.text = "x" + itemAmount.ToString() + "/10";
 	}
 }

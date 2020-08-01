@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		Time.timeScale = 1f;
+		//Time.timeScale = 1f;
         player = FindObjectOfType<PlayerMovement>();
     }
 
@@ -31,6 +31,7 @@ public class LevelManager : MonoBehaviour
 	}
 	
 	public void reStart() {
+		Time.timeScale = 1f;
 		Scene scene;
 		scene = SceneManager.GetActiveScene();
 		SceneManager.LoadScene(scene.name);

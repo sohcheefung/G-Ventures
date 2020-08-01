@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
    public GameObject pauseMenuUI;
 
     // Update is called once per frame
-    public void PauseIcon()
+    /*public void PauseIcon()
     {
 		
 			if (GameIsPaused)
@@ -24,7 +24,7 @@ public class PauseMenu : MonoBehaviour
 			{
 				Pause();
 			}
-    }
+    }*/
 	
 	public void Resume (){
 		pauseMenuUI.SetActive(false);
@@ -35,7 +35,7 @@ public class PauseMenu : MonoBehaviour
 		buttonJump.SetActive(true);
 	}
 	
-	void Pause (){
+	public void Pause (){
 		pauseMenuUI.SetActive(true);
 		Time.timeScale = 0f;
 		GameIsPaused = true;
@@ -51,14 +51,4 @@ public class PauseMenu : MonoBehaviour
 		Application.LoadLevel("Menu");
 	}
 	
-	public void QuitGame()
-	{
-		Debug.Log("Quitting game...");
-		Application.Quit();
-	}
-	
-	public void loadLevel1(string level1){
-		Time.timeScale = 1f;
-		SceneManager.LoadScene("level1");
-	}
 }    
