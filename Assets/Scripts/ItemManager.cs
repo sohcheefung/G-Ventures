@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
 {
-    
 	Text text;
 	public static int itemAmount;
 	
@@ -14,9 +13,11 @@ public class ItemManager : MonoBehaviour
 	{
 		itemAmount = 0;
 		text = GetComponent<Text> ();
+		text.text = itemAmount.ToString();
 	}
 	
 	void Update () {
+		PlayerPrefs.SetInt("TotalItem", itemAmount);
 		text.text = "x" + itemAmount.ToString() + "/10";
 	}
 }

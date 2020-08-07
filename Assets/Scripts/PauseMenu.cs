@@ -13,18 +13,7 @@ public class PauseMenu : MonoBehaviour
    public GameObject buttonJump;
    public GameObject pauseMenuUI;
 
-    // Update is called once per frame
-    /*public void PauseIcon()
-    {
-		
-			if (GameIsPaused)
-			{
-				Resume();
-			}else
-			{
-				Pause();
-			}
-    }*/
+   
 	
 	public void Resume (){
 		pauseMenuUI.SetActive(false);

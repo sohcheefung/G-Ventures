@@ -12,10 +12,13 @@ public class ScoreManager : MonoBehaviour
 	{
 		scoreAmount = 0;
 		text = GetComponent<Text> ();
+		//scoreAmount = PlayerPrefs.GetInt("TotalScore");
+		text.text = scoreAmount.ToString();
 	}
 	
 	void Update () 
 	{
+		PlayerPrefs.SetInt("TotalScore", scoreAmount);
 		text.text = "Score:" + scoreAmount.ToString();
 	}
 }
