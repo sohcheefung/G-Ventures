@@ -13,7 +13,9 @@ public class lastCheckPoint : MonoBehaviour
 	public GameObject winGameScreen;
 	public Text totalScore;
 	public Text totalItem;
-	public Text best_Score;
+	public Text highScore;
+	//public GameObject buttonSucceed;
+	//public GameObject buttonFailed;
 	
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class lastCheckPoint : MonoBehaviour
         //levelManager = FindObjectOfType<LevelManager>();
 		checkpointSpriteRenderer = GetComponent<SpriteRenderer> ();
 		winGameScreen.SetActive(false);
+		
     }
 
 	void OnTriggerEnter2D(Collider2D other)
@@ -34,25 +37,40 @@ public class lastCheckPoint : MonoBehaviour
 				Time.timeScale = 0f;
 				totalScore.text = PlayerPrefs.GetInt("TotalScore").ToString();
 				totalItem.text = PlayerPrefs.GetInt("TotalItem").ToString();
-				best_Score.text = PlayerPrefs.GetInt("TotalScore").ToString();
+				highScore.text = PlayerPrefs.GetInt("HighScore").ToString();
+				/*int highscore = PlayerPrefs.GetInt("highscore",0);
+				int currentscore = ScoreManager.scoreAmount;
+				
+				if(currentscore > highscore)
+				{
+					//currentscore = highscore;
+					PlayerPrefs.SetString("highscore",highScore.text);
+					//highScore.text = "High Score: " + highscore;
+				}
+	
+				
+				if(currentscore < 100)
+				{
+					buttonSucceed.SetActive(false);
+					buttonFailed.SetActive(true);
+				}else
+				{
+					buttonSucceed.SetActive(true);
+					buttonFailed.SetActive(false);
+				}*/
 			}
 	}
 	
-	public void checkBestScore()
-	{
+	
 		
 		
-		//int bestScore = best_Score;
-		//int currentScore = totalScore;
 		
-		int currentScore = PlayerPrefs.GetInt("TotalScore");
-		int bestScore = PlayerPrefs.GetInt("TotalScore");
 		
-		if(bestScore > currentScore)
-		{
-			PlayerPrefs.SetString("TotalScore",best_Score.text);
-		}
-	}
+	
+	
+	
+	
+	
 	
 	
 	 
