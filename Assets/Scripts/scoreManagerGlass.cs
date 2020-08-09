@@ -42,7 +42,7 @@ public class scoreManagerGlass : MonoBehaviour
 		ItemManager.itemAmount += 1;
 		if(ScoreManager.scoreAmount > 0)
 		{
-			ScoreManager.scoreAmount -=10;
+			ScoreManager.scoreAmount -=50;
 		}
 		player.displayPointsBad();
 		buttonLeft.SetActive(true);
@@ -59,7 +59,7 @@ public class scoreManagerGlass : MonoBehaviour
 		ItemManager.itemAmount += 1;
 		if(ScoreManager.scoreAmount > 0)
 		{
-			ScoreManager.scoreAmount -=10;
+			ScoreManager.scoreAmount -=50;
 		}
 		player.displayPointsBad();
 		buttonLeft.SetActive(true);
