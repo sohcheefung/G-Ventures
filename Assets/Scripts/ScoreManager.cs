@@ -37,7 +37,7 @@ public class ScoreManager : MonoBehaviour
 			PlayerPrefs.SetInt("HighScore",highScore);
 			highscoreText.text = "High Score: " + highScore;
 		}
-		if(scoreAmount < 100)
+		if(scoreAmount < 300)
 				{
 					buttonSucceed.SetActive(false);
 					buttonFailed.SetActive(true);

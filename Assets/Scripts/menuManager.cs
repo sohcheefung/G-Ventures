@@ -24,6 +24,10 @@ public class menuManager : MonoBehaviour
 		SceneManager.LoadScene("level1");
 	}
 	
+	public void loadLevel2(string level2){
+		SceneManager.LoadScene("level2");
+	}
+	
 	public void Quit(){
 		Application.Quit();
 	}
