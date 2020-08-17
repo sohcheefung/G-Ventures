@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: c5a076468d234df4c9b0c48973e7a393
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8084679701877513337
+    second: city_bg_0
+  - first:
+      213: -768064697970062666
+    second: city_bg_1
+  - first:
+      213: -5982649889419393742
+    second: city_bg_2
+  - first:
+      213: 3229033505031694408
+    second: city_bg_3
+  - first:
+      213: -3230728513012263398
+    second: city_bg_4
+  - first:
+      213: 8565572442267706641
+    second: city_bg_5
+  - first:
+      213: 4156987309344206307
+    second: city_bg_6
+  - first:
+      213: -7173205556631464822
+    second: city_bg_7
+  - first:
+      213: 3049370967190481425
+    second: city_bg_8
+  - first:
+      213: 5431783236630307339
+    second: city_bg_9
+  - first:
+      213: -1330667754005204823
+    second: city_bg_10
+  - first:
+      213: 54199613878841
+    second: city_bg_11
+  - first:
+      213: -9148320057749199087
+    second: city_bg_12
+  - first:
+      213: 7911581392242473567
+    second: city_bg_13
+  - first:
+      213: 8352678839165893573
+    second: city_bg_14
+  - first:
+      213: -5427208325674362075
+    second: city_bg_15
+  - first:
+      213: 4935379295143631480
+    second: city_bg_16
+  - first:
+      213: -3937231384959003918
+    second: city_bg_17
+  - first:
+      213: -3129309113322476163
+    second: city_bg_18
+  - first:
+      213: 318617886617029434
+    second: city_bg_19
+  - first:
+      213: 5378024018768576359
+    second: city_bg_20
+  - first:
+      213: 4915129062056996694
+    second: city_bg_21
+  - first:
+      213: 1630570400961739523
+    second: city_bg_22
+  - first:
+      213: 2755335000039522008
+    second: city_bg_23
+  - first:
+      213: -3646100087489830041
+    second: city_bg_24
+  - first:
+      213: -5568386152163275158
+    second: city_bg_25
+  - first:
+      213: -4955536845802352078
+    second: city_bg_26
+  - first:
+      213: 2010406294034528916
+    second: city_bg_27
+  - first:
+      213: -1036089629788899812
+    second: city_bg_28
+  - first:
+      213: 6403970222567771631
+    second: city_bg_29
+  - first:
+      213: 7661813892095901543
+    second: city_bg_30
+  - first:
+      213: -5168602162690618113
+    second: city_bg_31
+  - first:
+      213: -887338733009505510
+    second: city_bg_32
+  - first:
+      213: 2964987337320628746
+    second: city_bg_33
+  - first:
+      213: 4378128479717085645
+    second: city_bg_34
+  - first:
+      213: 6840771273767700059
+    second: city_bg_35
+  - first:
+      213: -1835482891146535333
+    second: city_bg_36
+  - first:
+      213: 711694790856045762
+    second: city_bg_37
+  - first:
+      213: -4757051418227067967
+    second: city_bg_38
+  - first:
+      213: 5148619019240134202
+    second: city_bg_39
+  - first:
+      213: 2107672321188397372
+    second: city_bg_40
+  - first:
+      213: 4199033990403002604
+    second: city_bg_41
+  - first:
+      213: 2814363919067360611
+    second: city_bg_42
+  - first:
+      213: 3876302580708071129
+    second: city_bg_43
+  - first:
+      213: 1727743914392101220
+    second: city_bg_44
+  - first:
+      213: 8264439529692723928
+    second: city_bg_45
+  - first:
+      213: -5504601927915870053
+    second: city_bg_46
+  - first:
+      213: -5578634416337514200
+    second: city_bg_47
+  - first:
+      213: 6053736720086084517
+    second: city_bg_48
+  - first:
+      213: 4251419087694935157
+    second: city_bg_49
+  - first:
+      213: -4726012127124822909
+    second: city_bg_50
+  - first:
+      213: 3301139726770284047
+    second: city_bg_51
+  - first:
+      213: 3689008371812034614
+    second: city_bg_52
+  - first:
+      213: -5229780296494088228
+    second: city_bg_53
+  - first:
+      213: 1567271684627055774
+    second: city_bg_54
+  - first:
+      213: 5441351458328106007
+    second: city_bg_55
+  - first:
+      213: 2159722241490141314
+    second: city_bg_56
+  - first:
+      213: 5536083044773136902
+    second: city_bg_57
+  - first:
+      213: 8239527381587359490
+    second: city_bg_58
+  - first:
+      213: 1075712431214967353
+    second: city_bg_59
+  - first:
+      213: -4489707208042293572
+    second: city_bg_60
+  - first:
+      213: 449593865336680138
+    second: city_bg_61
+  - first:
+      213: 123559500083406588
+    second: city_bg_62
+  - first:
+      213: -5650267415147769876
+    second: city_bg_63
+  - first:
+      213: 639490439139693796
+    second: city_bg_64
+  - first:
+      213: 2277326893341474642
+    second: city_bg_65
+  - first:
+      213: 1556876083031555557
+    second: city_bg_66
+  - first:
+      213: 8779320219191128292
+    second: city_bg_67
+  - first:
+      213: 836440802616417467
+    second: city_bg_68
+  - first:
+      213: -6183863431478032421
+    second: city_bg_69
+  - first:
+      213: -7864126415293391417
+    second: city_bg_0
+  - first:
+      213: 7103312980880748323
+    second: city_bg_1
+  - first:
+      213: 4875071857968985452
+    second: city_bg_2
+  - first:
+      213: 826851459885860613
+    second: city_bg_3
+  - first:
+      213: -4419014915577507408
+    second: city_bg_4
+  - first:
+      213: 5012549624402464090
+    second: city_bg_5
+  - first:
+      213: 568247203959737676
+    second: city_bg_6
+  - first:
+      213: -8613387246837859801
+    second: city_bg_7
+  - first:
+      213: 2624143990121540905
+    second: city_bg_8
+  - first:
+      213: 5773434862262123072
+    second: city_bg_9
+  - first:
+      213: -3045725766669055059
+    second: city_bg_10
+  - first:
+      213: -7510867637920924332
+    second: city_bg_11
+  - first:
+      213: 5465836094264242372
+    second: city_bg_12
+  - first:
+      213: 2033256524511201892
+    second: city_bg_13
+  - first:
+      213: 8777792917620350667
+    second: city_bg_14
+  - first:
+      213: 995813480330516447
+    second: city_bg_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: city_bg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cddba3f0b20dd290800000000000000
+      internalID: -7864126415293391417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f61d96589049260800000000000000
+      internalID: 7103312980880748323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65bebc860cb7a340800000000000000
+      internalID: 4875071857968985452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507828c9501997b00800000000000000
+      internalID: 826851459885860613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b199d3e8518ca2c0800000000000000
+      internalID: -4419014915577507408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dc6856357209540800000000000000
+      internalID: 5012549624402464090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d01a042d1d2e700800000000000000
+      internalID: 568247203959737676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a79574fe9177880800000000000000
+      internalID: -8613387246837859801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92daba24e05da6420800000000000000
+      internalID: 2624143990121540905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a7df21b6c5f1050800000000000000
+      internalID: 5773434862262123072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabcf6a5d886bb5d0800000000000000
+      internalID: -3045725766669055059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dfeb67da904c790800000000000000
+      internalID: -7510867637920924332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0f02fe7fc8adb40800000000000000
+      internalID: 5465836094264242372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a4cb05904973c10800000000000000
+      internalID: 2033256524511201892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce53bed62cf0d970800000000000000
+      internalID: 8777792917620350667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_bg_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd755a59517d1dd00800000000000000
+      internalID: 995813480330516447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -35,7 +35,7 @@ public class ScoreManager : MonoBehaviour
 		{
 			highScore = scoreAmount;
 			PlayerPrefs.SetInt("HighScore",highScore);
-			highscoreText.text = "High Score: " + highScore;
+			highscoreText.text = " " + highScore;
 		}
 		if(scoreAmount < 300)
 				{
