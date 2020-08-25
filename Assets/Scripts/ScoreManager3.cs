@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreManager : MonoBehaviour
+public class ScoreManager3 : MonoBehaviour
 {
 	Text text;
 	public Text highscoreText;
@@ -21,23 +21,23 @@ public class ScoreManager : MonoBehaviour
 		scoreAmount = 0;
 		text = GetComponent<Text> ();
 		text.text = scoreAmount.ToString();
-		highScore = PlayerPrefs.GetInt("HighScore",0);
+		highScore = PlayerPrefs.GetInt("HighScore3",0);
 		minimumScore.SetActive(false);
 		
 	}
 	
 	void Update () 
 	{
-		PlayerPrefs.SetInt("TotalScore", scoreAmount);
+		PlayerPrefs.SetInt("TotalScore3", scoreAmount);
 		text.text = "Score:" + scoreAmount.ToString();
 	
 		if (scoreAmount > highScore)
 		{
 			highScore = scoreAmount;
-			PlayerPrefs.SetInt("HighScore",highScore);
+			PlayerPrefs.SetInt("HighScore3",highScore);
 			highscoreText.text = " " + highScore;
 		}
-		if(scoreAmount < 300)
+		if(scoreAmount < 500)
 				{
 					buttonSucceed.SetActive(false);
 					buttonFailed.SetActive(true);
@@ -48,10 +48,6 @@ public class ScoreManager : MonoBehaviour
 				}
 		}
 		
-		public void deduct()
-		{
-			highScore -=50;
-		}
 		
 		IEnumerator ShowAndHide()
 		{

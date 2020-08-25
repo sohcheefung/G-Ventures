@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
 	{
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 		curHealth = maxHealth;
+		Time.timeScale = 1;
 	}
 	
 	public void displayPointsGood()

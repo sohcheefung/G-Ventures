@@ -28,6 +28,10 @@ public class menuManager : MonoBehaviour
 		SceneManager.LoadScene("level2");
 	}
 	
+	public void loadLevel3(string level3){
+		SceneManager.LoadScene("level3");
+	}
+	
 	public void Quit(){
 		Application.Quit();
 	}

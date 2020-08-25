@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class ItemManager : MonoBehaviour
+public class ItemManager1 : MonoBehaviour
 {
 	Text text;
 	public static int itemAmount;
@@ -17,7 +17,7 @@ public class ItemManager : MonoBehaviour
 	}
 	
 	void Update () {
-		PlayerPrefs.SetInt("TotalItem", itemAmount);
+		PlayerPrefs.SetInt("TotalItem1", itemAmount);
 		text.text = "x" + itemAmount.ToString() + "/10";
 	}
 }

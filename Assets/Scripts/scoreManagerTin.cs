@@ -27,8 +27,11 @@ public class scoreManagerTin : MonoBehaviour
 		scoringscreenUI.SetActive(false);
 		ScoringScreenAppear = false;
 		Debug.Log("collect tin");
-		ItemManager.itemAmount += 1;
-		ScoreManager.scoreAmount +=100;
+		ItemManager1.itemAmount += 1;
+		ItemManager2.itemAmount += 1;
+		ScoreManager1.scoreAmount +=100;
+		ScoreManager2.scoreAmount +=100;
+		ScoreManager3.scoreAmount +=100;
 		player.displayPointsGood();
 		buttonLeft.SetActive(true);
 		buttonRight.SetActive(true);
@@ -40,11 +43,8 @@ public class scoreManagerTin : MonoBehaviour
 	{
 		scoringscreenUI.SetActive(false);
 		ScoringScreenAppear = false;
-		ItemManager.itemAmount += 1;
-		if(ScoreManager.scoreAmount > 0)
-		{
-			ScoreManager.scoreAmount -=50;
-		}
+		ItemManager1.itemAmount += 1;
+		ItemManager2.itemAmount += 1;
 		player.displayPointsBad();
 		buttonLeft.SetActive(true);
 		buttonRight.SetActive(true);
@@ -57,11 +57,8 @@ public class scoreManagerTin : MonoBehaviour
 	{
 		scoringscreenUI.SetActive(false);
 		ScoringScreenAppear = false;
-		ItemManager.itemAmount += 1;
-		if(ScoreManager.scoreAmount > 0)
-		{
-			ScoreManager.scoreAmount -=50;
-		}
+		ItemManager1.itemAmount += 1;
+		ItemManager2.itemAmount += 1;
 		player.displayPointsBad();
 		buttonLeft.SetActive(true);
 		buttonRight.SetActive(true);

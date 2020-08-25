@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     Image timerBar;
-	public float maxTime = 5f;
+	public float maxTime;
 	public bool timerIsRunning = false;
 	float timeLeft;
 	public GameObject timesUpText;
@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
 	public void Stop(){
 		timerIsRunning = false;
 		timerBar.enabled = false;
-		maxTime = 7f;
+		//maxTime = 7f;
 		timeLeft = maxTime;
 	}
 	
@@ -69,7 +69,8 @@ public class Timer : MonoBehaviour
 				buttonLeft.SetActive(true);
 				buttonRight.SetActive(true);
 				buttonJump.SetActive(true);
-				ItemManager.itemAmount += 1;	
+				ItemManager1.itemAmount += 1;	
+				ItemManager2.itemAmount += 1;	
 			}
 		}
     }

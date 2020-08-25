@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class lastCheckPoint : MonoBehaviour
+public class lastCheckPoint3 : MonoBehaviour
 {
    
 	public Sprite redBin;
@@ -11,8 +11,11 @@ public class lastCheckPoint : MonoBehaviour
 	private SpriteRenderer checkpointSpriteRenderer;
 	public bool winGame = false;
 	public GameObject winGameScreen;
+	
 	public Text totalScore;
+	
 	public Text totalItem;
+	
 	public Text highScore;
 	
     // Start is called before the first frame update
@@ -32,25 +35,15 @@ public class lastCheckPoint : MonoBehaviour
 				winGame = true;
 				winGameScreen.SetActive(true);
 				Time.timeScale = 0f;
-				totalScore.text = PlayerPrefs.GetInt("TotalScore").ToString();
-				totalItem.text = PlayerPrefs.GetInt("TotalItem").ToString();
-				highScore.text = PlayerPrefs.GetInt("HighScore").ToString();
+				totalScore.text = PlayerPrefs.GetInt("TotalScore3").ToString();
+				
+				totalItem.text = PlayerPrefs.GetInt("TotalItem2").ToString();
+				
+				highScore.text = PlayerPrefs.GetInt("HighScore3").ToString();
+			
 				
 			}
 	}
+	}
 	
 	
-		
-		
-		
-		
-	
-	
-	
-	
-	
-	
-	
-	 
-	
-}
