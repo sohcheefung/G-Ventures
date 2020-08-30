@@ -71,6 +71,7 @@ public class Timer : MonoBehaviour
 				buttonJump.SetActive(true);
 				ItemManager1.itemAmount += 1;	
 				ItemManager2.itemAmount += 1;	
+				ItemManager3.itemAmount += 1;	
 			}
 		}
     }

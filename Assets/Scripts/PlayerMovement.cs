@@ -106,6 +106,19 @@ public class PlayerMovement : MonoBehaviour
 	public void OnLanding (){
 		animator.SetBool("isJumping", false);
 	}
+	
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		if (col.gameObject.CompareTag("platform"))
+			this.transform.parent = col.transform;
+	}
+	
+	void OnCollisionExit2D(Collision2D col)
+	{
+		if(col.gameObject.CompareTag("platform"))
+			this.transform.parent = null;
+		
+	}
 	 
 	public void OnCrouching (bool isCrouching){
 		animator.SetBool("isCrouching", isCrouching);

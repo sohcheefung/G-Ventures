@@ -15,6 +15,7 @@ TagManager:
   - blue
   - brown
   - score
+  - platform
   layers:
   - Default
   - TransparentFX
