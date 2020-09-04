@@ -32,6 +32,14 @@ public class menuManager : MonoBehaviour
 		SceneManager.LoadScene("level3");
 	}
 	
+	public void loadLevel4(string level4){
+		SceneManager.LoadScene("level4");
+	}
+	
+	public void loadLevel5(string level5){
+		SceneManager.LoadScene("level5");
+	}
+	
 	public void Quit(){
 		Application.Quit();
 	}

@@ -16,7 +16,7 @@ public class ItemManager3 : MonoBehaviour
 	}
 	
 	void Update () {
-		PlayerPrefs.SetInt("TotalItem2", itemAmount);
+		PlayerPrefs.SetInt("TotalItem3", itemAmount);
 		text.text = "x" + itemAmount.ToString() + "/14";
 }
 }

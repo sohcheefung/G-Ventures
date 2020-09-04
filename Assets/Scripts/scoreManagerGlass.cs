@@ -33,6 +33,7 @@ public class scoreManagerGlass : MonoBehaviour
 		ScoreManager2.scoreAmount +=100;
 		ScoreManager3.scoreAmount +=100;
 		ScoreManager4.scoreAmount +=100;
+		ScoreManager5.scoreAmount +=100;
 		player.displayPointsGood();
 		buttonLeft.SetActive(true);
 		buttonRight.SetActive(true);
