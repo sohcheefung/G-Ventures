@@ -34,10 +34,10 @@ public class PauseMenu : MonoBehaviour
 		
 	}
 	
-	public void LoadMenu()
+	public void LoadLevelSelection()
 	{
-		Debug.Log("Loading menu...");
-		Application.LoadLevel("Menu");
+		Debug.Log("Loading...");
+		Application.LoadLevel("Level");
 	}
 	
 }    
