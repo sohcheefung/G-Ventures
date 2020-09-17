@@ -1023,7 +1023,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLEASE SCORE AT LEAST 700 POINTS !
+  m_Text: SCORE AT LEAST 700 POINTS TO WIN !
 --- !u!222 &106251647
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2284,6 +2284,8 @@ MonoBehaviour:
   totalScore: {fileID: 447695906}
   totalItem: {fileID: 484674344}
   highScore: {fileID: 659095092}
+  buttonSucceed: {fileID: 937047773}
+  buttonFailed: {fileID: 1874824600}
 --- !u!4 &253238948 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9158993226807832300, guid: 6f2111dac4b831c4d8a4b8a9f218b43b,
@@ -18512,6 +18514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 840445128}
   - component: {fileID: 840445127}
+  - component: {fileID: 840445129}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -18547,6 +18550,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &840445129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840445126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f686347bd9df8174da19758bc311adea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &867163651
 GameObject:
   m_ObjectHideFlags: 0
@@ -19568,12 +19583,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 840445126}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 840445129}
+        m_MethodName: loadCredit
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -20770,8 +20785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highscoreText: {fileID: 1403188759}
-  buttonSucceed: {fileID: 937047773}
-  buttonFailed: {fileID: 1874824600}
   minimumScore: {fileID: 106251643}
 --- !u!114 &1069391052
 MonoBehaviour:
@@ -21428,7 +21441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130779809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.690079, y: 3.5425577, z: -10}
+  m_LocalPosition: {x: -10.692244, y: 3.5425577, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2095299130}
@@ -26708,7 +26721,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1069391051}
         m_MethodName: showText
         m_Mode: 1
         m_Arguments:

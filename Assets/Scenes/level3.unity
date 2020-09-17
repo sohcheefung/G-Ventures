@@ -21024,6 +21024,8 @@ MonoBehaviour:
   totalScore: {fileID: 532632721}
   totalItem: {fileID: 586262534}
   highScore: {fileID: 1715474201}
+  buttonSucceed: {fileID: 311673061}
+  buttonFailed: {fileID: 11110364}
 --- !u!1001 &1043372202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25973,8 +25975,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highscoreText: {fileID: 1139020581}
-  buttonSucceed: {fileID: 311673061}
-  buttonFailed: {fileID: 11110364}
   minimumScore: {fileID: 1151594073}
 --- !u!114 &1795692475
 MonoBehaviour:
@@ -27355,7 +27355,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 208853604}
-        m_MethodName: LoadMenu
+        m_MethodName: LoadLevelSelection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

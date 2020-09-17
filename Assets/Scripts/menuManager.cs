@@ -40,6 +40,10 @@ public class menuManager : MonoBehaviour
 		SceneManager.LoadScene("level5");
 	}
 	
+	public void loadCredit(string credit){
+		SceneManager.LoadScene("credit");
+	}
+	
 	public void Quit(){
 		Application.Quit();
 	}

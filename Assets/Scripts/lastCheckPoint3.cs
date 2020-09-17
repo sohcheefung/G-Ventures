@@ -13,16 +13,19 @@ public class lastCheckPoint3 : MonoBehaviour
 	public GameObject winGameScreen;
 	
 	public Text totalScore;
-	
 	public Text totalItem;
-	
 	public Text highScore;
+	
+	public GameObject buttonSucceed;
+	public GameObject buttonFailed;
+	int levelPassed;
 	
     // Start is called before the first frame update
     void Start()
     {
 		checkpointSpriteRenderer = GetComponent<SpriteRenderer> ();
 		winGameScreen.SetActive(false);
+		levelPassed = PlayerPrefs.GetInt("LevelPassed");
 		
     }
 
@@ -36,10 +39,18 @@ public class lastCheckPoint3 : MonoBehaviour
 				winGameScreen.SetActive(true);
 				Time.timeScale = 0f;
 				totalScore.text = PlayerPrefs.GetInt("TotalScore3").ToString();
-				
 				totalItem.text = PlayerPrefs.GetInt("TotalItem2").ToString();
-				
 				highScore.text = PlayerPrefs.GetInt("HighScore3").ToString();
+				if(ScoreManager3.scoreAmount < 500)
+					{
+					buttonSucceed.SetActive(false);
+					buttonFailed.SetActive(true);
+					}else
+					{
+					buttonSucceed.SetActive(true);
+					buttonFailed.SetActive(false);
+					PlayerPrefs.SetInt("LevelPassed",3);
+					}
 			
 				
 			}

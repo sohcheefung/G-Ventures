@@ -1499,6 +1499,8 @@ MonoBehaviour:
   totalScore: {fileID: 1789769517}
   totalItem: {fileID: 1325464440}
   highScore: {fileID: 808223517}
+  buttonSucceed: {fileID: 1046785319}
+  buttonFailed: {fileID: 1171685858}
 --- !u!4 &245990743 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9158993226807832300, guid: 6f2111dac4b831c4d8a4b8a9f218b43b,
@@ -28047,8 +28049,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highscoreText: {fileID: 2088494237}
-  buttonSucceed: {fileID: 1046785319}
-  buttonFailed: {fileID: 1171685858}
   minimumScore: {fileID: 308287435}
 --- !u!114 &1407547928
 MonoBehaviour:
@@ -31747,7 +31747,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 845547583}
-        m_MethodName: LoadMenu
+        m_MethodName: LoadLevelSelection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

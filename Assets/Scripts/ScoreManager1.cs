@@ -11,9 +11,6 @@ public class ScoreManager1 : MonoBehaviour
 	public static int scoreAmount;
 	public static int highScore;
 	
-	public GameObject buttonSucceed;
-	public GameObject buttonFailed;
-	
 	public GameObject minimumScore;
 	
 	void Start()
@@ -37,16 +34,8 @@ public class ScoreManager1 : MonoBehaviour
 			PlayerPrefs.SetInt("HighScore1",highScore);
 			highscoreText.text = " " + highScore;
 		}
-		if(scoreAmount < 300)
-				{
-					buttonSucceed.SetActive(false);
-					buttonFailed.SetActive(true);
-				}else
-				{
-					buttonSucceed.SetActive(true);
-					buttonFailed.SetActive(false);
-				}
-		}
+		
+	}
 		
 		
 		IEnumerator ShowAndHide()
