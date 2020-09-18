@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class AudioVolumeControl : MonoBehaviour
 {
-	private AudioSource audioSrc;
+	public static AudioVolumeControl instance;
 	
-	private float musicVolume = 1f;
+	public AudioClip[] s_audiolist;
 	
-    // Start is called before the first frame update
-    void Start()
-    {
-        audioSrc = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        audioSrc.volume = musicVolume;
-    }
+	List<AudioSource> s_source = new List<AudioSource>();
 	
-	public void setVolume(float vol)
-	{
-		musicVolume = vol;
+	void Awake(){
+		instance = this;
+	}
+	
+	void Start(){
+		for (int i=0; i< s_audiolist.Length; i++)
+		{
+			s_source.Add(new AudioSource());
+			s_source[i] = gameObject.AddComponent<AudioSource>();
+			s_source[i].clip = s_audiolist[i];
+		}
+	}
+	
+	public void s_playsound(int s){
+		s_source[s].Play();
 	}
 }

@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class menuManager : MonoBehaviour
 {
+	public static bool exitPanel = false;
+	
+	public GameObject ExitPanel;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -45,9 +49,18 @@ public class menuManager : MonoBehaviour
 	}
 	
 	public void Quit(){
-		Application.Quit();
+		ExitPanel.SetActive(true);
+		exitPanel = true;
+	}
+	
+	public void No(){
+		ExitPanel.SetActive(false);
+		exitPanel = false;
 	}
 
+	public void Yes(){
+		Application.Quit();
+	}
     // Update is called once per frame
    
 }
