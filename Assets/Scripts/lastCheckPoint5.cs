@@ -19,12 +19,15 @@ public class lastCheckPoint5 : MonoBehaviour
 	public GameObject buttonFailed;
 	int levelPassed;
 	
+	public AudioSource winSound;
+	
     // Start is called before the first frame update
     void Start()
     {
 		checkpointSpriteRenderer = GetComponent<SpriteRenderer> ();
 		winGameScreen.SetActive(false);
 		levelPassed = PlayerPrefs.GetInt("LevelPassed");
+		winSound = GetComponent<AudioSource> ();
 		
     }
 
@@ -40,6 +43,7 @@ public class lastCheckPoint5 : MonoBehaviour
 				totalScore.text = PlayerPrefs.GetInt("TotalScore5").ToString();
 				totalItem.text = PlayerPrefs.GetInt("TotalItem3").ToString();
 				highScore.text = PlayerPrefs.GetInt("HighScore5").ToString();
+				winSound.Play(); 
 				if(ScoreManager5.scoreAmount < 500)
 					{
 					buttonSucceed.SetActive(false);

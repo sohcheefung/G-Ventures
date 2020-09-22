@@ -11,23 +11,23 @@ public class LevelManager : MonoBehaviour
 	
 	private PlayerMovement player;
 	
+	public AudioSource deathSound;
+	
     // Start is called before the first frame update
     void Start()
     {
 		//Time.timeScale = 1f;
         player = FindObjectOfType<PlayerMovement>();
+		deathSound = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 	
 	public void RespawnPlayer()
 	{
 		Debug.Log("Player Respawn");
 		player.transform.position = currentCheckpoint.transform.position;
+		deathSound.Play();
+		
 	}
 	
 	public void reStart() {

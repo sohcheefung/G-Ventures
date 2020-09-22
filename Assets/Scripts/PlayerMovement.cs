@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
 	public GameObject floatingPointsGood;
 	public GameObject floatingPointsBad;
 	
+	
 	void Start()
 	{
 		rb2d = gameObject.GetComponent<Rigidbody2D>();

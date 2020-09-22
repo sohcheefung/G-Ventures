@@ -315,6 +315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a721f615bdb370c4a8aa618c67479c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  s_audiolist:
+  - {fileID: 8300000, guid: 2cbf1a855ac7cce4abf0f559e212da3c, type: 3}
 --- !u!82 &297703724
 AudioSource:
   m_ObjectHideFlags: 0
@@ -644,6 +646,7 @@ GameObject:
   - component: {fileID: 1175356622}
   - component: {fileID: 1175356621}
   - component: {fileID: 1175356620}
+  - component: {fileID: 1175356623}
   m_Layer: 5
   m_Name: LevelSelection
   m_TagString: Untagged
@@ -724,6 +727,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1175356623}
+        m_MethodName: play_sound
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1175356621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,6 +775,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175356618}
   m_CullTransparentMesh: 0
+--- !u!114 &1175356623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175356618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ea73b63f6354e4cae94a1189cb3977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1394645195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f686347bd9df8174da19758bc311adea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ExitPanel: {fileID: 0}
 --- !u!1 &1854210381
 GameObject:
   m_ObjectHideFlags: 0
