@@ -8,12 +8,21 @@ public class menuManager : MonoBehaviour
 	public static bool exitPanel = false;
 	
 	public GameObject ExitPanel;
+	public GameObject InfoPanel;
 	
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1;
     }
+	
+	public void openInfo(){
+		InfoPanel.SetActive(true);
+	}
+	
+	public void closeInfo(){
+		InfoPanel.SetActive(false); 
+	}
 	
 	public void loadLevelSelection(string level){
 		//SceneManager.UnloadSceneAsync ("Menu");

@@ -26,7 +26,7 @@ public class ScoreManager1 : MonoBehaviour
 	void Update () 
 	{
 		PlayerPrefs.SetInt("TotalScore1", scoreAmount);
-		text.text = "Score:" + scoreAmount.ToString();
+		text.text = "Score:" + scoreAmount.ToString()+ "(300)";
 	
 		if (scoreAmount > highScore)
 		{
@@ -48,5 +48,9 @@ public class ScoreManager1 : MonoBehaviour
 		public void showText(){
 		
 		StartCoroutine(ShowAndHide());
+		}
+		
+		public void resetScore(){
+			PlayerPrefs.DeleteKey("HighScore1");
 		}
 }

@@ -26,7 +26,7 @@ public class ScoreManager5 : MonoBehaviour
 	void Update () 
 	{
 		PlayerPrefs.SetInt("TotalScore5", scoreAmount);
-		text.text = "Score:" + scoreAmount.ToString();
+		text.text = "Score:" + scoreAmount.ToString()+"(700)";
 	
 		if (scoreAmount > highScore)
 		{
@@ -47,5 +47,9 @@ public class ScoreManager5 : MonoBehaviour
 		public void showText(){
 		
 		StartCoroutine(ShowAndHide());
+		}
+		
+		public void resetScore(){
+			PlayerPrefs.DeleteKey("HighScore5");
 		}
 }

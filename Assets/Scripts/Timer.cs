@@ -19,6 +19,8 @@ public class Timer : MonoBehaviour
 	public GameObject buttonRight;
 	public GameObject buttonJump;
 	
+	public AudioSource timesUp;
+	
     // Start is called before the first frame update
 	
 	void Start (){
@@ -26,6 +28,7 @@ public class Timer : MonoBehaviour
 		timesUpText.SetActive(false);
 		timerBar.enabled = false;
 		timeLeft = maxTime;
+		timesUp = GetComponent<AudioSource>();
 	}
 	
 	public void Began(){
@@ -72,6 +75,7 @@ public class Timer : MonoBehaviour
 				ItemManager1.itemAmount += 1;	
 				ItemManager2.itemAmount += 1;	
 				ItemManager3.itemAmount += 1;	
+				timesUp.Play();
 			}
 		}
     }

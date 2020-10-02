@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9034023880575207052}
   - component: {fileID: 7838241300666585835}
   m_Layer: 0
-  m_Name: floatingPoints
+  m_Name: floatingPointsGood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4281215783
+    rgba: 4278848010
 --- !u!95 &3167197826364406687
 Animator:
   serializedVersion: 3
