@@ -26,7 +26,7 @@ public class ScoreManager2 : MonoBehaviour
 	void Update () 
 	{
 		PlayerPrefs.SetInt("TotalScore2", scoreAmount);
-		text.text = "Score:" + scoreAmount.ToString()+"(300)";
+		text.text = "Score:" + scoreAmount.ToString()+"/300";
 	
 		if (scoreAmount > highScore)
 		{
