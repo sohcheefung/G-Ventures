@@ -1,4 +1,5 @@
 # G-Ventures  
+### About
 This is my Final Year Project which is an indie game which focused on green awareness in terms of recycling in Malaysia. Currently still in prototype development.  
 Primarly purpose is to teach, educate and increase school kids knowledge on recycling.  
 Platform: Android  
