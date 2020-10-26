@@ -634,7 +634,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Music By: -'
+  m_Text: 'Music By: - Ian Laurence'
 --- !u!222 &631721009
 CanvasRenderer:
   m_ObjectHideFlags: 0
