@@ -19,6 +19,7 @@ public class lastCheckPoint1 : MonoBehaviour
 	
 	public GameObject buttonSucceed;
 	public GameObject buttonFailed;
+	public Transform winBurst;
 	int levelPassed;
 	
 	public AudioSource winSound;
@@ -30,6 +31,7 @@ public class lastCheckPoint1 : MonoBehaviour
 		winGameScreen.SetActive(false);
 		levelPassed = PlayerPrefs.GetInt("LevelPassed");
 		winSound = GetComponent<AudioSource> ();
+		winBurst.GetComponent<ParticleSystem> ().enableEmission = false;
     }
 	
 
@@ -41,7 +43,8 @@ public class lastCheckPoint1 : MonoBehaviour
 				checkpointSpriteRenderer.sprite = greenBin;
 				winGame = true;
 				winGameScreen.SetActive(true);
-				Time.timeScale = 0f;
+				winBurst.GetComponent<ParticleSystem> ().enableEmission = true;
+				Time.timeScale = 1f;
 				totalScore.text = PlayerPrefs.GetInt("TotalScore1").ToString();
 				totalItem.text = PlayerPrefs.GetInt("TotalItem1").ToString();
 				highScore.text = PlayerPrefs.GetInt("HighScore1").ToString();
