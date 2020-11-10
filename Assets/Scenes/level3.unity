@@ -16082,7 +16082,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 97390e3596f15374093d8dad552f58af, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -19867,18 +19867,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.10485077, y: 0.02707757}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
+    oldSize: {x: 1.25, y: 0.5}
     newSize: {x: 0.36, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.5904083, y: 0.2181606}
   m_EdgeRadius: 0
 --- !u!95 &864152330
 Animator:
@@ -22067,18 +22067,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.075883865, y: 0.02569826}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
+    oldSize: {x: 1.25, y: 0.5}
     newSize: {x: 0.36, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.5324745, y: 0.21540198}
   m_EdgeRadius: 0
 --- !u!95 &1045231263
 Animator:
@@ -27713,18 +27713,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.099331856, y: 0.02431877}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
+    oldSize: {x: 1.25, y: 0.5}
     newSize: {x: 0.36, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.5573063, y: 0.212643}
   m_EdgeRadius: 0
 --- !u!95 &1825659520
 Animator:

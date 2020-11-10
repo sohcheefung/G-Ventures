@@ -1653,7 +1653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173017646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.54, y: -2.21, z: 14.628396}
+  m_LocalPosition: {x: 4.54, y: -2.1, z: 14.628396}
   m_LocalScale: {x: -2, y: 2, z: 0}
   m_Children: []
   m_Father: {fileID: 1077539708}
@@ -1719,18 +1719,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.08691645, y: 0.018801212}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
-    newSize: {x: 0.36, y: 0.28}
+    oldSize: {x: 1.25, y: 0.5}
+    newSize: {x: 1.25, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.64282894, y: 0.24574852}
   m_EdgeRadius: 0
 --- !u!95 &173017652
 Animator:
@@ -1795,7 +1795,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.36, y: 0.28}
+  m_Size: {x: 1.25, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3863,15 +3863,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
   - first: {x: 26, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 20
-      m_TileSpriteIndex: 18
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 27, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 20
@@ -6172,7 +6163,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0f212e2971b72a84a9cb1e76fbe11596, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 05e83cc923838384ea1dc453733118c0, type: 2}
-  - m_RefCount: 54
+  - m_RefCount: 53
     m_Data: {fileID: 11400000, guid: 9708e63d0575de94c863aeaa30487f6a, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -6211,14 +6202,14 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 98f877c6dbb35ae409b5a369abb5d65c, type: 3}
   - m_RefCount: 27
     m_Data: {fileID: 21300000, guid: 66fb5ea25dcefc6459fe81bbfc769f03, type: 3}
-  - m_RefCount: 54
+  - m_RefCount: 53
     m_Data: {fileID: 21300000, guid: 25360da582ddb8549b7254b2b7cd5d8d, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: 99ce366db03bdf041a65c674e26297c9, type: 3}
   - m_RefCount: 9
     m_Data: {fileID: 21300000, guid: 5e494100f0aca7d4a866eb98a26aa0be, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 471
+  - m_RefCount: 470
     m_Data:
       e00: 1
       e01: 0
@@ -6237,7 +6228,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 471
+  - m_RefCount: 470
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 6.2500153, g: 6.2500153, b: 6.2500153, a: 6.2500153}
@@ -12098,18 +12089,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.08829498, y: 0.02845712}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
-    newSize: {x: 0.36, y: 0.28}
+    oldSize: {x: 1.25, y: 0.5}
+    newSize: {x: 1.25, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.6179962, y: 0.2209197}
   m_EdgeRadius: 0
 --- !u!95 &675401923
 Animator:
@@ -12174,7 +12165,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.36, y: 0.28}
+  m_Size: {x: 1.25, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -13485,7 +13476,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 085966744c27b074cb3610ccb61f9810, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -14812,18 +14803,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.107608795, y: 0.013283625}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
-    newSize: {x: 0.36, y: 0.28}
+    oldSize: {x: 1.25, y: 0.5}
+    newSize: {x: 1.25, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.634552, y: 0.2181606}
   m_EdgeRadius: 0
 --- !u!95 &992446866
 Animator:
@@ -14888,7 +14879,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.36, y: 0.28}
+  m_Size: {x: 1.25, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -15779,7 +15770,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113614239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.23, y: -4.98, z: 14.628396}
+  m_LocalPosition: {x: 36.45, y: -4.98, z: 14.628396}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 1077539708}
@@ -18001,18 +17992,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: 0.118644714, y: 0.020180658}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.06, y: 0.48}
-    newSize: {x: 0.36, y: 0.28}
+    oldSize: {x: 1.25, y: 0.5}
+    newSize: {x: 1.25, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.6290283, y: 0.20436677}
   m_EdgeRadius: 0
 --- !u!95 &1488980666
 Animator:
@@ -18077,7 +18068,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.36, y: 0.28}
+  m_Size: {x: 1.25, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

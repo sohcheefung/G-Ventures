@@ -6207,7 +6207,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 601a663e78e9a9046bd056cde9d1e3a1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -22133,7 +22133,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03033176, y: -0.021201286}
+  m_Offset: {x: -0.014973536, y: -0.027344745}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22144,7 +22144,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25383878, y: 0.12160287}
+  m_Size: {x: 0.28455523, y: 0.109315954}
   m_EdgeRadius: 0
 --- !u!212 &1573449430
 SpriteRenderer:
