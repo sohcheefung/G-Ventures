@@ -11,6 +11,8 @@ public class ScoreManager5 : MonoBehaviour
 	public static int scoreAmount;
 	public static int highScore;
 	
+	public Color newColor;
+	
 	public GameObject minimumScore;
 	
 	void Start()
@@ -33,6 +35,10 @@ public class ScoreManager5 : MonoBehaviour
 			highScore = scoreAmount;
 			PlayerPrefs.SetInt("HighScore5",highScore);
 			highscoreText.text = " " + highScore;
+		}
+		
+		if(scoreAmount >= 700){
+		text.color = newColor;
 		}
 	}
 		

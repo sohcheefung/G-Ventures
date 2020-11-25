@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class menuManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class menuManager : MonoBehaviour
 	
 	public GameObject ExitPanel;
 	public GameObject InfoPanel;
+	
+	public GameObject loadingScreen;
+	public Slider slider;
 	
     // Start is called before the first frame update
     void Start()
@@ -33,24 +37,24 @@ public class menuManager : MonoBehaviour
 		SceneManager.LoadScene("Menu");
 	}
 	
-	public void loadLevel1(string level1){
-		SceneManager.LoadScene("level1");
+	public void LoadLevel (int sceneIndex)
+	{
+			StartCoroutine(LoadAsynchronously(sceneIndex));
 	}
 	
-	public void loadLevel2(string level2){
-		SceneManager.LoadScene("level2");
-	}
-	
-	public void loadLevel3(string level3){
-		SceneManager.LoadScene("level3");
-	}
-	
-	public void loadLevel4(string level4){
-		SceneManager.LoadScene("level4");
-	}
-	
-	public void loadLevel5(string level5){
-		SceneManager.LoadScene("level5");
+	IEnumerator LoadAsynchronously (int sceneIndex)
+	{
+		AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+		
+		loadingScreen.SetActive(true);
+		
+		while (!operation.isDone)
+		{
+				float progress = Mathf.Clamp01(operation.progress / .9f);
+				slider.value = progress;
+				//yield return new WaitForSeconds(1f);
+				yield return null;
+		}
 	}
 	
 	public void loadCredit(string credit){

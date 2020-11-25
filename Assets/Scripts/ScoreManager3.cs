@@ -11,6 +11,8 @@ public class ScoreManager3 : MonoBehaviour
 	public static int scoreAmount;
 	public static int highScore;
 	
+	public Color newColor;
+	
 	public GameObject minimumScore;
 	
 	void Start()
@@ -35,6 +37,9 @@ public class ScoreManager3 : MonoBehaviour
 			highscoreText.text = " " + highScore;
 		}
 		
+		if(scoreAmount >= 500){
+		text.color = newColor;
+		}
 	}	
 		
 		IEnumerator ShowAndHide()
