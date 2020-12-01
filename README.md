@@ -5,7 +5,7 @@ The main idea of this project is to teach, educate and increase school kids know
 ### Platform  
 Android    
 ### Screenshots
-![Screenshot (24)](https://user-images.githubusercontent.com/55059378/94866777-90f9b980-0472-11eb-825c-799a999c254b.png)  
+![Screenshot (63)](https://user-images.githubusercontent.com/55059378/100795049-64095900-3459-11eb-97c4-1a08d0553b3c.png)   
 ![Screenshot (25)](https://user-images.githubusercontent.com/55059378/94866807-9eaf3f00-0472-11eb-9c3e-122628d9a01e.png)  
 ![Screenshot (26)](https://user-images.githubusercontent.com/55059378/94866835-ab339780-0472-11eb-9b6e-13f5b41a6293.png)  
 ![Screenshot (27)](https://user-images.githubusercontent.com/55059378/94866841-ac64c480-0472-11eb-8691-fadeccef794b.png)  
