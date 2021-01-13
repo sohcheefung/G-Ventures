@@ -10,7 +10,7 @@ Android
 * C# Script  
 * Unity Free Asset  
 * Unity Scripting API: MonoBehaviour  
-* Unity Corss Platform Input  
+* Unity Cross Platform Input  
 * ShaderLab  
 * Unity Cinemachine  
 ### Screenshots
