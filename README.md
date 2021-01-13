@@ -13,8 +13,8 @@ Android
 * Unity Cross Platform Input  
 * ShaderLab  
 * Unity Cinemachine  
-### Screenshots
-![Screenshot (63)](https://user-images.githubusercontent.com/55059378/100795049-64095900-3459-11eb-97c4-1a08d0553b3c.png)   
+### Screenshots  
+![Screenshot (177)](https://user-images.githubusercontent.com/55059378/104517515-1cb5e100-5631-11eb-958e-6f4c39b632a2.png)  
 ![Screenshot (25)](https://user-images.githubusercontent.com/55059378/94866807-9eaf3f00-0472-11eb-9c3e-122628d9a01e.png)  
 ![Screenshot (26)](https://user-images.githubusercontent.com/55059378/94866835-ab339780-0472-11eb-9b6e-13f5b41a6293.png)  
 ![how to play 1](https://user-images.githubusercontent.com/55059378/100795442-0cb7b880-345a-11eb-816d-9610ade0e926.png)  
