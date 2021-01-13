@@ -1,9 +1,14 @@
 # G-Ventures  
 ### About  
 This is my Final Year Project which is an indie game which focused on green awareness in terms of recycling in Malaysia.  
-The main idea of this project is to teach, educate and increase school kids knowledge on recycling.  
+The main idea of this project is to teach, educate and increase school kids knowledge on recycling through an engaging gameplay mechanic.    
 ### Platform  
-Android    
+Android  
+### Tools  
+* Build by using Unity 2019  
+* C# Script  
+* Unity Free Asset  
+* Unity Scripting API: MonoBehaviour  
 ### Screenshots
 ![Screenshot (63)](https://user-images.githubusercontent.com/55059378/100795049-64095900-3459-11eb-97c4-1a08d0553b3c.png)   
 ![Screenshot (25)](https://user-images.githubusercontent.com/55059378/94866807-9eaf3f00-0472-11eb-9c3e-122628d9a01e.png)  
