@@ -1,6 +1,6 @@
 # G-Ventures  
 ### About  
-This is my Final Year Project which is an indie game that focused on the green awareness in terms of recycling in Malaysia.    
+This is my Final Year Project, an indie game which focus on the green awareness in terms of recycling in Malaysia.    
 The main idea of this project is to teach, educate and increase school kids knowledge on recycling through an engaging gameplay mechanics.     
 The winner of SIGG 2020 Gold Medal Award    
 ### Platform  
